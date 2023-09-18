@@ -64,7 +64,7 @@ print ("The %s with %i multiple format arguments" % ("Example", 2))
 #       %f 	                floating point as [-]m.dddddd
 #       %e 	                floating point as [-]m.dddddde±xx
 #       %E 	                floating point as [-]m.ddddddE±xx
-#       %g, %G 	               floating point where the exponent is less than -4 or greater than the precision
+#       %g, %G 	                floating point where the exponent is less than -4 or greater than the precision
 #       %s 	                any printable object (such as strings)
 #       %c 	                a single character
 #       %% 	                the literal %
