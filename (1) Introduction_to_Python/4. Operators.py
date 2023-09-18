@@ -11,7 +11,6 @@ Operators
 
 # 3.	object.attribute, object[i],  function() 
 # To access a variable's (object's) properties and methods, use the. (dot) operator. For example:
-
 var1 = ["L", "a", "n", "g,", "u", "a,", "g", "e"]
 print ('Value of the variable "var1" before append', var1)
 var1.append("s") 
