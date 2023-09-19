@@ -84,7 +84,6 @@ else:
     print("x is smaller than y")
 
 
-
 ''' 
 Nested if (Multiple Selections)
 __________________________________
@@ -104,7 +103,6 @@ elif y > z:
     print("Value of y is large ")
 else:
      print("Value of z is large ")
-
 
 
 '''
@@ -212,5 +210,7 @@ ________________________________
 print ("Children are playing..."); print ("cricket...") 
 
 # Remember to use a backslash at the end of any lines that need to be split into two.
+
+
 
 
