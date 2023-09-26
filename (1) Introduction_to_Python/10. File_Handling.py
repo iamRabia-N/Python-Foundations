@@ -122,6 +122,7 @@ file.writelines(["int","string","float"])
 #_________________________
 
 # Here are some file-specific attributes:
-# file.name # returns the name of the file
-# file.mode # returns the I/O mode for the file 
-# file.closed # returns 0 if the file is closed; 1 otherwise 
+# file.name # returns the file's name
+# file.mode # returns the file's I/O mode 
+# file.closed  # If the file is closed, it returns 0; otherwise, it returns 1 
+
