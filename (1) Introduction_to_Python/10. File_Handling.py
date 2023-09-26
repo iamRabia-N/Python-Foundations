@@ -18,14 +18,14 @@ ___________________
 # > If the value is negative, the buffer size is set to the system default (default behaviour). 
 
 # Example:
-file = open("pyfile.txt", "r") 
-line = file.readline()
+file1 = open("pyfile.txt", "r") 
+line = file1.readline()
 line = line[:-1] #chop off the newline character
 while line: 
     print (line)
-    line = file.readline()
+    line = file1.readline()
     line = line[:-1] 
-file.close()
+file1.close()
 
 
 '''
@@ -40,7 +40,7 @@ ___________________
 # It can read up to n bytes. However, if no arguments are provided, read() reads all accessible data from the file.
 # Syntax: file.read( [nbytes] )
 # Example: 
-file = open("pyfile.txt").read()
+file2 = open("pyfile.txt").read()
 # If you use the command file = open("pyfile.txt"), Python will read the first 200 bytes of the file using read(200).
 
 
@@ -49,9 +49,9 @@ file = open("pyfile.txt").read()
 # It only reads one line at a time (until the newline character). 
 # Syntax: file.readline()
 # Example: 
-file=open("test.txt","r") 
+file3 = open("test.txt","r") 
 while 1: 
-    line = file.readline()
+    line = file3.readline()
     if not line: 
         break 
 
@@ -61,8 +61,8 @@ while 1:
 # It reads the full file and converts it to a string list. 
 # Syntax: file.readlines()
 # Example: 
-file=open("test.txt","r") 
-for line in file.readlines():
+file4 = open("test.txt","r") 
+for line in file4.readlines():
     print (line)
 
 
