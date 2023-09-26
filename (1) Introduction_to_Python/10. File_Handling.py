@@ -8,7 +8,7 @@ Opening a File
 ___________________
 '''
 # Syntax: 
-# file = open ( filename, mode, buffersize)
+# file = open(filename, mode, buffersize)
 # The mode can be read, write, or append (r, w, and a, respectively). If none are specified, read mode is assumed.
 # If you're working with a binary file, replace the mode indicator with the letter b (for example, rb or wb). The letter b denotes binary mode (text translation mode).
 # The buffersize clause is the syntax's final argument, which means:
