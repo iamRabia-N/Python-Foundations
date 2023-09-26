@@ -41,7 +41,7 @@ ___________________
 # Syntax: file.read( [nbytes] )
 # Example: 
 file2 = open("pyfile.txt").read()
-# If you use the command file = open("pyfile.txt"), Python will read the first 200 bytes of the file using read(200).
+# If you use the command file2 = open("pyfile.txt"), Python will read the first 200 bytes of the file2 using read(200).
 
 
 # readline()
@@ -61,7 +61,7 @@ while 1:
 # It reads the full file and converts it to a string list. 
 # Syntax: file.readlines()
 # Example: 
-file4 = open("test.txt","r") 
+file4 = open("testmarks.txt","r") 
 for line in file4.readlines():
     print (line)
 
