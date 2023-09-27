@@ -1,7 +1,7 @@
 '''
-------------
-Basic Syntax
--------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                    Basic Syntax
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 '''
 
 # Let's start interacting with Python by printing "Hello World!" on the screen.
@@ -15,7 +15,7 @@ print (x)
 
 
 ''' 
-Few points to keep in mind about variables in Python:
+Few points to keep in mind about variables in Python
 _________________________________________________________
 '''
 
@@ -46,29 +46,29 @@ _________________________________________________________
 
 # There are two types of comments we can add in python:
 # 1.	Single-line Comments
-# # comment here
-# Put "#" in start of the line to comment it.
+#     # comment here
+#     Put "#" in start of the line to comment it.
 
 # 2.	Multi-Line Comments
-# 	Use multiple "#" at start of each line to comment a paragraph or multi-lines.
-# Example: 
-# # You can comment multi-
-# # line text by using 
-# # multiple number sign 
-# # multiple times 
-# # at 
-# # start of each
-# # line
+#     -> Use multiple "#" at start of each line to comment a paragraph or multi-lines.
+#     Example: 
+#     # You can comment multi-
+#     # line text by using 
+#     # multiple number sign 
+#     # multiple times 
+#     # at 
+#     # start of each
+#     # line
 
-# 	Use single or double quotations at start and end of line to comment it.
-# Example:
-# 'You can comment multi- line text by using multiple number sign single or double quotation at start and end of text that wants to be commented'
+#     -> Use single or double quotations at start and end of line to comment it.
+#     Example:
+#     'You can comment multi- line text by using multiple number sign single or double quotation at start and end of text that wants to be commented'
 
-# 	Use ''' ''' and put content in between these 3-single-quotation.
-# Example:
-# '''
-# You can comment multi- line text by using 3-single quotations at start and end of text that wants to be commented
-# '''
+#     -> Use ''' ''' and put content in between these 3-single-quotation.
+#     Example:
+#     '''
+#     You can comment multi- line text by using 3-single quotations at start and end of text that wants to be commented
+#     '''
 
 ''' 
 why we need comments in code?
