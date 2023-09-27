@@ -8,7 +8,7 @@ Opening a File
 ___________________
 '''
 # Syntax: 
-# file = open ( filename, mode, buffersize)
+# file = open(filename, mode, buffersize)
 # The mode can be read, write, or append (r, w, and a, respectively). If none are specified, read mode is assumed.
 # If you're working with a binary file, replace the mode indicator with the letter b (for example, rb or wb). The letter b denotes binary mode (text translation mode).
 # The buffersize clause is the syntax's final argument, which means:
@@ -18,14 +18,14 @@ ___________________
 # > If the value is negative, the buffer size is set to the system default (default behaviour). 
 
 # Example:
-file = open("pyfile.txt", "r") 
-line = file.readline()
+file1 = open("pyfile.txt", "r") 
+line = file1.readline()
 line = line[:-1] #chop off the newline character
 while line: 
     print (line)
-    line = file.readline()
+    line = file1.readline()
     line = line[:-1] 
-file.close()
+file1.close()
 
 
 '''
@@ -40,8 +40,8 @@ ___________________
 # It can read up to n bytes. However, if no arguments are provided, read() reads all accessible data from the file.
 # Syntax: file.read( [nbytes] )
 # Example: 
-file = open("pyfile.txt").read()
-# If you use the command file = open("pyfile.txt"), Python will read the first 200 bytes of the file using read(200).
+file2 = open("pyfile.txt").read()
+# If you use the command file2 = open("pyfile.txt"), Python will read the first 200 bytes of the file2 using read(200).
 
 
 # readline()
@@ -49,9 +49,9 @@ file = open("pyfile.txt").read()
 # It only reads one line at a time (until the newline character). 
 # Syntax: file.readline()
 # Example: 
-file=open("test.txt","r") 
+file3 = open("test.txt","r") 
 while 1: 
-    line = file.readline()
+    line = file3.readline()
     if not line: 
         break 
 
@@ -61,8 +61,8 @@ while 1:
 # It reads the full file and converts it to a string list. 
 # Syntax: file.readlines()
 # Example: 
-file=open("test.txt","r") 
-for line in file.readlines():
+file4 = open("testmarks.txt","r") 
+for line in file4.readlines():
     print (line)
 
 
@@ -122,6 +122,7 @@ file.writelines(["int","string","float"])
 #_________________________
 
 # Here are some file-specific attributes:
-# file.name # returns the name of the file
-# file.mode # returns the I/O mode for the file 
-# file.closed # returns 0 if the file is closed; 1 otherwise 
+# file.name # returns the file's name
+# file.mode # returns the file's I/O mode 
+# file.closed  # If the file is closed, it returns 0; otherwise, it returns 1 
+
