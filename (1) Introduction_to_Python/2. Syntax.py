@@ -20,23 +20,23 @@ _________________________________________________________
 '''
 
 # 1.	Declaring the type of a variable is not required in Python. Because it is reinitialized every time a value is given to it, the same variable name can have different types at different times, as seen in the following example:
-a = "I am learning Python"
-print (a)
-# Output: I am learning Python
+     a = "I am learning Python"
+     print (a)
+     # Output: I am learning Python
 
-a = 1250
-print (a)
-# Output: 1250
+     a = 1250
+     print (a)
+     # Output: 1250
 
 # 2.	It is a case-sensitive language. It means variables names should be corrected right in order for them to work right. For example:
-a = "I am learning Python"
-print (a)  # Output: I am learning Python
-print (A)  # Output: NameError: name 'A' is not defined
+     a = "I am learning Python"
+     print (a)  # Output: I am learning Python
+     print (A)  # Output: NameError: name 'A' is not defined
 
 # 3.	In variables, you have to understand the concepts of keywords, identifiers, and literals.
-# Keywords are predefined, reserved words that are used in Python programming and have special significance to the compiler.
-# Identifiers: Variables, classes, and methods are given names using identifiers.
-# Literals: The value assigned to an identifier or variable.
+     # Keywords are predefined, reserved words that are used in Python programming and have special significance to the compiler.
+     # Identifiers: Variables, classes, and methods are given names using identifiers.
+     # Literals: The value assigned to an identifier or variable.
 
 
 ''' 
