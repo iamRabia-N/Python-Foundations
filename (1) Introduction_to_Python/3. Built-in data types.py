@@ -16,6 +16,7 @@
 Numbers 
 ___________
 '''
+
 # Python's numeric data types include integer, floating-point, hexadecimal (base 16), and octal (base 8). 
 # Examples of these data types are 25, 10.5, 0xB3, and 045 respectively.
 
@@ -41,6 +42,7 @@ print (2|1)     #Output: 3
 Strings
 ___________
 '''
+
 # Python defines a string as a sequence of characters. As a result, whenever you use the string for example "Apple," Python internally treats it as the sequence ["A", "P", "P", "L", "E"]. The initial indexer value is always zero. As a result, in order to access the letter "A," you have to type "print (Apple[0])", and so on. We can access all of the other elements using the same concept.
 
 # The following are examples of few string operators: 
