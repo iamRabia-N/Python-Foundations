@@ -1,7 +1,8 @@
 '''
----------------------
-Input and Output
----------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                    Input and Output
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 '''
 # Python, like any other language, allows you to collect user input and show information to user.
 # Let's understand this concept with the following example: 
@@ -20,7 +21,7 @@ print ("Name", "sketch")
 
 ''' 
 Displaying Information 
-_____________________
+_________________________
 
 '''
 # The sys module in Python provides access to the three built-in file objects. They are used by the interpreter to provide input and output functionality. They are referred to as sys.stdin, sys.stdout, and sys.stderr.
@@ -32,7 +33,7 @@ sys.stdout.write("Writing data with built-in file object. \n")
 
 ''' 
 Formatting Operations
-_____________________
+_________________________
 
 '''
 # Python's formatting operations are identical to the C language's printf() function. Consider the following example:
@@ -73,6 +74,7 @@ print ("The %s with %i multiple format arguments" % ("Example", 2))
 value = 150
 print ("The value is %d" % value)
 # Output: The value is 150
+
 # Following that, there are various unique ways to format operations by inserting unique characters between the formatting operator and the % literal. We must first initialize several variables before proceeding with the examples.
 
 int_var = 3
