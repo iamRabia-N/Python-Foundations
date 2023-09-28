@@ -2,7 +2,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                     Operators
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 '''
 
 # Following few points shows the operators and their precedence in Python:
@@ -53,10 +52,8 @@ print ("Value of variabe 'x' after shift operator", x)
 
 
 ''' 
-
 Augmented Assignment  
 _______________________
-
 '''
 
 # With Python 2.0, a complete set of augmented assignment operators are also implemented. This comprises the following symbols: +=, -=, *=, /=, %=, **=, &=, |=, =, »=, and «= 
@@ -73,7 +70,6 @@ print ('After applying augmented assignment',x)
 ''' 
 Expressions 
 ______________
-
 '''
 
 # Numerous expressions are supported by Python operators; among which few are as follows: 
