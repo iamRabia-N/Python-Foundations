@@ -36,8 +36,8 @@ print (Lst1[2][3][2])    # Output: "e"
 ''' 
 Identifying an Entry
 _____________________________
-
 '''
+
 Lst1 = [1, "Numbers!", 2.5]
 print ("The index of List's element is ", Lst1.index(2.5))  # Output: 2
 
@@ -45,7 +45,6 @@ print ("The index of List's element is ", Lst1.index(2.5))  # Output: 2
 ''' 
 Assigning Values to a List
 _____________________________
-
 '''
 
 Lst1 = [1, "Numbers!", [2, 4, 6,"Even!!"]]
@@ -59,7 +58,6 @@ print ("After Assigning Value to the List", Lst1)   # Output: After Assigning Va
 ''' 
 Assigning Values to a Slice
 _____________________________
-
 '''
 
 Lst1 = [1, "Numbers!", [2, 4, 6,"Even!!"], 2, 3]
@@ -72,7 +70,6 @@ print (Lst1) # [1, 'New value added!', ['new list', 100], 'New value added!', 3]
 ''' 
 Inserting Values
 _____________________________
-
 '''
 
 # The following example starts inserting items at index number 6.
@@ -126,7 +123,7 @@ numbers = (1.2, 1.5, 2.9)
 
 
 '''
-_____________________________________________________
+___________________________________________________
 Built-In Methods
 _____________________________________________________
 '''
