@@ -47,9 +47,3 @@ Whether you're here to expand your skill set, or kickstart a new career, let's d
 
 Happy coding, and welcome to the world of Python!
 
-<p align="center">
-  <a href="https://github.com/iamRabia-N/learn-python/discussions" alt="Join the Discussion">
-    <img src="https://img.shields.io/badge/Join%20the-Discussion-58A6FF?style=for-the-badge" alt="Join the Discussion">
-  </a>
-</p>
-
