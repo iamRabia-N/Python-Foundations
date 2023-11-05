@@ -100,5 +100,3 @@ class C:
 
 a = C()
 a.b()  
-
-# In Python, encapsulation relies on naming conventions and name mangling, rather than strict access control. Everything is accessible if you know where to look, so it's important to adhere to conventions and respect privacy.
