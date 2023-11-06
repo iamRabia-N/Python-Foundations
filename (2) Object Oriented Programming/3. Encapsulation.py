@@ -21,7 +21,7 @@ _______________________________
 class Number:
     def __init__(self, value):
         self._n = value  # Follows the single underscore convention
-        self.__n = value  # Utilizes double underscore name mangling
+        self.__n = value  # Utilizes double underscore name manglingz
 
     def __repr__(self):
         return f'{self.__class__.__name__}({self._n})'
