@@ -15,7 +15,6 @@ Python is a versatile and widely-used programming language that's perfect for be
 ## ✨ What You'll Find Here
 
 - **Structured Learning**: This repository provides a structured path to mastering Python's basic concepts.
-
 - **Hands-On Practice**: I believe in learning by doing. That's why I've included numerous examples to practice your skills.
 
 
