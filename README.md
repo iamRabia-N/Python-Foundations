@@ -1,4 +1,4 @@
-# Welcome to the Ultimate Basic Python Learning Guide 
+# Welcome to the Basic Python Learning Guide 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Beginner%20Friendly-yellow?style=for-the-badge" alt="Beginner Friendly">
@@ -14,7 +14,7 @@ Python is a versatile and widely-used programming language that's perfect for be
 
 ## ✨ What You'll Find Here
 
-- **Structured Learning**: This repository provides a structured path to mastering Python's basic concepts.
+- **Structured Learning**: This repository provides a structured path to learning Python's basic concepts.
 - **Hands-On Practice**: I believe in learning by doing. That's why I've included numerous examples to practice your skills.
 
 
