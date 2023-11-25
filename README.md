@@ -1,4 +1,4 @@
-# Welcome to the Basic Python Learning Guide 
+# Welcome to the Basic Python Learning 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Beginner%20Friendly-yellow?style=for-the-badge" alt="Beginner Friendly">
@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Learn%20with-Examples-green?style=for-the-badge" alt="Learn with Examples">
 </p>
 
-Welcome to the Basic Python Learning! This comprehensive guide is designed for understanding the basics of Python.
+
 
 ## 🚀 Introduction to Python
 
