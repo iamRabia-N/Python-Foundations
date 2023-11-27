@@ -9,14 +9,11 @@
 # A range is a list of integers. This data structure is provided by the built-in function range().
 #---------- 1st Method
 r = range(10,15) 
-print (list(r))   #Output: [11, 12, 13, 14, 15]
+print (list(r))   # Output: [11, 12, 13, 14, 15]
 
 #---------- 2nd Method
 for i in range(10,15):
-    print(i, end=" ")    
-
-# Output: 10 11 12 13 14
-
+    print(i, end=" ")    # Output: 10 11 12 13 14
 
 # When the first parameter is omitted, it is presumed to be zero.
 r = range(5) 
