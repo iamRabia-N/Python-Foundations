@@ -33,7 +33,7 @@ Python is a versatile and widely-used programming language that's perfect for be
 
 1. Clone this repository to your local machine.
 2. Navigate to the repository folder.
-3. Dive into the directories in numeric order to access Python learning resources, organized in a sequence.
+3. Dive into the directories in numeric order to access the learning resources organized in a sequence.
 4. Challenge yourself with practice exercises.
 
 ## Ready to Begin?
