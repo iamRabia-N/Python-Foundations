@@ -9,7 +9,7 @@
 
 ## What You'll Find Here
 
-- **Structured Learning**: This repository provides a structured path to learning Python's basic concepts.
+- **Structured Learning**: This repository provides a structured path to learning python's basic concepts.
 - **Hands-On Practice**: I believe in learning by doing. That's why I've included numerous examples for the practice.
 
 
@@ -28,7 +28,7 @@
 
 1. Clone this repository to your local machine.
 2. Navigate to the repository folder.
-3. Dive into the directories in numeric order to access the learning resources organized in a sequence.
+3. Explore the directories in numeric order to access the learning resources organized in a sequence.
 4. Challenge yourself with practice exercises.
 
 ## Ready to Begin?
