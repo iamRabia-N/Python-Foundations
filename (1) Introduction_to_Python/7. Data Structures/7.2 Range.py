@@ -29,7 +29,7 @@ print (list(r))  # Output: [6, 5, 4, 3,]
 
 # The xrange() function only computes the values when they are accessed. Instead of storing a lengthy list of numbers in a variable, this function returns an XrangeType object.
 for n in xrange(12):
-     print (n)                # Output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+     print (n)  # Output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
 
 # The preceding illustration still applies when using the range() function, but it stores the entire list in memory.
 # As you will see in the following section, it is possible to assign a reference to the xrange() function's return value to a variable. Note that we are only storing a reference to the function; we are not storing any values.
