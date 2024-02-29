@@ -206,11 +206,5 @@ ________________________________
 
 # Python does not have this issue because indentation specifies block structure. 
 # Another advantage of this design is that it allows you to reduce the size of your code by utilizing indentation instead of traditional block delimiters. 
-# I recommend that you write one sentence per line, with a newline (ENTER) to end each line. If you want to have more than one statement on the same line, use semicolons to divide them, as demonstrated below: 
+# I recommend that you write one sentence per line with a newline (ENTER) to end each line. If you want to have more than one statement on the same line, use semicolons to divide them as demonstrated below: 
 print ("Children are playing..."); print ("cricket...") 
-
-# Remember to use a backslash at the end of any lines that need to be split into two.
-
-
-
-
