@@ -24,7 +24,7 @@ Displaying Information
 _________________________
 
 '''
-# The sys module in Python provides access to the three built-in file objects. They are used by the interpreter to provide input and output functionality. They are referred to as sys.stdin, sys.stdout, and sys.stderr.
+# The sys module in Python provides access to the three built-in file objects. They are used by the interpreter to provide input and output functionality. They are referred to as sys.stdin, sys.stdout and sys.stderr.
 # Print statements are mapped to sys.stdout. As a result, they send the textual representation of objects to the standard output stream:
 # import sys 
 sys.stdout.write("Writing data with built-in file object. \n") 
