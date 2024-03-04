@@ -37,5 +37,4 @@ List1 = xrange(12)
 print (List1)  # Output:  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
 
 # However, you can use the tolist() method to later transform this reference into a genuine list.
-List1.tolist() 
-# Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+List1.tolist()  # Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
