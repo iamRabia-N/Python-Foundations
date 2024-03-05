@@ -3,20 +3,20 @@
                                                                     Encapsulation in Python
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 '''
-# In Python, all attributes (variables and methods) are essentially public, but certain conventions and techniques can be used to achieve a form of encapsulation.
+# In Python, all attributes (variables and methods) are essentially public but certain conventions and techniques can be used to achieve a form of encapsulation.
 
 '''
 Single Underscore Convention
 ____________________________
 '''
-# Attributes preceded by a single underscore (e.g., _n) are meant to be treated as internal and not intended for external use, though they can still be accessed.
+# Attributes preceded by a single underscore (e.g., _n) are meant to be treated as internal and not intended for external use though they can still be accessed.
 
 
 '''
 Double Underscore Name Mangling
 _______________________________
 '''
-# Attributes starting with double underscores (e.g., __n) are not explicitly exported and undergo name-mangling as _Class__Variablename when byte-compiled, making them less accessible but not entirely private.
+# Attributes starting with double underscores (e.g., __n) are not explicitly exported and undergo name-mangling as _Class__Variablename when byte-compiled.
 # Example:
 class Number:
     def __init__(self, value):
