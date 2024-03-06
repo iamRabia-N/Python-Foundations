@@ -4,7 +4,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 '''
 
-# Python supports a wide number of data structures, including lists, tuples, ranges, and dictionaries (sometimes referred to as hash tables).
+# Python supports a wide number of data structures, including lists, tuples, ranges and dictionaries.
 
 '''
 ________________________________________________________________________________________________
@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 # Lists are mutable sequences of objects that can be altered after they are generated and are indexed by natural numbers.
 # Lists are flexible and simple to create. They are enclosed by brackets:
-Lst1 = [1,2,3,4,5] # this is simple list
+Lst1 = [1,2,3,4,5]
 
 # A list can contain items with multiple data types:
 Lst1 = [1, "Numbers!", 2]
@@ -22,7 +22,7 @@ Lst1 = [1, "Numbers!", 2]
 # Lists can also contain other lists.
 Lst1 = [1, "Numbers!", [2, 4, 6,"Even!!"]]
 
-# Strings and lists both employ the same operators. For instance, you need to use slice operator to extract a range of elements from a list.
+# Strings and lists both use the same operators. Forexample, you need to use slice operator to extract a range of elements from a list.
 Lst1 = [1, "Numbers!", [2, 4, 6,"Even!!"]]
 print (Lst1[1])  # Output: "Numbers!"
 
@@ -62,10 +62,10 @@ _____________________________
 '''
 
 Lst1 = [1, "Numbers!", [2, 4, 6,"Even!!"], 2, 3]
-print (Lst1)  # [1, 'Numbers!', [2, 4, 6, 'Even!!'], 2, 3]
+print (Lst1)  # Output: [1, 'Numbers!', [2, 4, 6, 'Even!!'], 2, 3]
 
 Lst1[1:4] = ["New value added!", ["new list", 100], "New value added!"] 
-print (Lst1) # [1, 'New value added!', ['new list', 100], 'New value added!', 3]
+print (Lst1) # Output: [1, 'New value added!', ['new list', 100], 'New value added!', 3]
 
 
 ''' 
@@ -80,7 +80,7 @@ print (Lst1)  # Output: [1, 2, 3, 4, 5]
 Lst1[5:] = ["a", "b", "c", "d", "e"] 
 print (Lst1)  # Output: [1, 2, 3, 4, 5, 'a', 'b', 'c', 'd', 'e']
 
-# If the list contained more than six elements, the statement would overwrite a section of it. Keep in mind that you can also add a value to this list, as demonstrated in the example below:
+# If the list contained more than six elements, the statement would overwrite a section of it. Keep in mind that you can also add a value to this list as demonstrated in the example below:
 Lst1 = [1,2,3,4,5]
 print (Lst1)  # Output: [1, 2, 3, 4, 5]
 
@@ -102,25 +102,6 @@ print (Lst1)  # Output: [1, 2, 3, 4]
 
 del Lst1[0:2] 
 print (Lst1)  # Output: [3, 4]
-
-
-'''
-_____________________________________________________
-Lists Comprehension
-_____________________________________________________
-'''
-
-# With release 2.0, there is a new syntax for creating lists whose elements are computed from another list (or lists). The method is known as List Comprehension, and it follows the following format: 
-# [ expression for expression1 in sequence1
-#                     [for expression2 in sequence2] 
-#                     [… for expressionN in sequenceN] 
-#                     [if condition] ]
-# All for...in clauses are analyzed and iterated from left to right. This signifies that the final list is a cartesian product of the specified sequences. For example, if you have three lists of length 5, the output list includes 125 elements. The if clause is optional, but when present, it can limit the amount of pairs that form part of the resultant list by adding pairs to the resulting list only when the if statement's result condition evaluates to true. Consider the following example:
-letters = "py" 
-numbers = (1.2, 1.5, 2.9)
-#  [ (l,n) for l in letters for n in numbers]
-[('p', 1.2), ('p', 1.5), ('p', 2.9), ('y', 1.2), ('y', 1.5), ('y', 2.9)]
-# This new notion is more efficient than a for loop with an if statement and a list using the add() function.
 
 
 '''
