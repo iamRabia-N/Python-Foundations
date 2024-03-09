@@ -17,23 +17,23 @@ Numbers
 ___________
 '''
 
-# Python's numeric data types include integer, floating-point, hexadecimal (base 16), and octal (base 8). 
-# Examples of these data types are 25, 10.5, 0xB3, and 045 respectively.
+# Python's numeric data types include integer, floating-point, hexadecimal (base 16) and octal (base 8). 
+# Examples of these data types are 25, 10.5, 0xB3 and 045 respectively.
 
 # Numerous operations with numbers are possible in Python among which few are mentioned below:
 # 1. It can write equations:
-print (3*(3.0/45))   #Result: 0.2
+print (3*(3.0/45)) # Output: 0.2
 
 # 2. It can execute functions:
-print (round(12.35, 1))  #Output: 12.3
+print (round(12.35, 1)) #Output: 12.3
 
 # 3. It can perform comparisons: 
 x = 4
-print (0, x, 10)     #Output: True
+print (0, x, 10) # Output: True
 
 # 4. It can perform binary operations like masking and shifting. For example:
-print (15<<2)   #Output: 60
-print (2|1)     #Output: 3
+print (15<<2) # Output: 60
+print (2|1) # Output: 3
 
 # 5.  Python allows for long integers of any size. Put a "L" at the end of the integer to tell Python that it should treat it as a long integer
 
@@ -43,8 +43,7 @@ Strings
 ___________
 '''
 
-# Python defines a string as a sequence of characters. As a result, whenever you use the string for example "Apple," Python internally treats it as the sequence ["A", "P", "P", "L", "E"]. The initial indexer value is always zero. As a result, in order to access the letter "A," you have to type "print (Apple[0])", and so on. We can access all of the other elements using the same concept.
-
+# Python defines a string as a sequence of characters. As a result, whenever you use the string for example "Apple," Python internally treats it as the sequence ["A", "P", "P", "L", "E"]. The initial indexer value is always zero. As a result, in order to access the letter "A," you have to type "print (Apple[0])" and so on. We can access all of the other elements using the same concept.
 # The following are examples of few string operators: 
 print (len("computer"))    # Get its length (Output: 8)
 print ("Hello" + "World")  # concatenation (Output: HelloWorld)
