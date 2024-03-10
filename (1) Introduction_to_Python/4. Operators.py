@@ -25,11 +25,11 @@ print ('Value of the variable "var1" after append', var1)
 # 7.	x+y, x-y 
 
 # 8.	x<>y 
-# These operators provide shifting operations. The << operator ensures left shifting (at bit level), and the >> operator ensures right shifting. 
+# These operators provide shifting operations. The << operator ensures left shifting (at bit level) and the >> operator ensures right shifting. 
 # For example:
 x = 4 # binary representation is 0100
 print ("Value of variabe 'x' before shift operator", x)
-x = x << 1 # the binary representation will be 1000 8 
+x = x << 1 # The binary representation will be 1000 8 
 print ("Value of variabe 'x' after shift operator", x)
 
 # 9.	x & y 
@@ -42,7 +42,7 @@ print ("Value of variabe 'x' after shift operator", x)
 
 # 13.	The operators "in and not in" are only used with lists. 
 
-# 14.	The == operator checks for equality, whereas the = operator assigns a value to a variable. 
+# 14.	The == operator checks for equality whereas the = operator assigns a value to a variable. 
 
 # 15.	 not 
 
@@ -56,7 +56,7 @@ Augmented Assignment
 _______________________
 '''
 
-# With Python 2.0, a complete set of augmented assignment operators are also implemented. This comprises the following symbols: +=, -=, *=, /=, %=, **=, &=, |=, =, »=, and «= 
+# With Python 2.0, a complete set of augmented assignment operators are also implemented. This comprises the following symbols: +=, -=, *=, /=, %=, **=, &=, |=, =, »= and «= 
 # For example:
 x = 5
 print ('Before applying augmented assignment', x)
