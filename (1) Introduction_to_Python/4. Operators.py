@@ -72,9 +72,9 @@ Expressions
 ______________
 '''
 
-# Numerous expressions are supported by Python operators; among which few are as follows: 
-# x,y,z = z-x, y*z, x+y   # Parallel assignment: example 1 
-# x,y,z = 15,10,5 # Parallel assignment: example 2 
+# Numerous expressions are supported by python operators among which few are as follows: 
+# x,y,z = z-x, y*z, x+y   # Parallel assignment example 1 
+# x,y,z = 15,10,5 # Parallel assignment example 2 
 # x,y = y,x # Switching assignments 
 # a = b = c = 100  # Multiple assignments 
 # string.atof(var2) # Functions support 
