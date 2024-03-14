@@ -9,14 +9,13 @@
 x = input ("Enter your first name: \n") 
 print ("Your Name is ", x)
 
-# It should be noted that the input prompt can be anything, including empty.
+# It should be noted that the input prompt can be anything including empty.
 
 # When a user enters 5, x is correctly handled as a number. The user must explicitly input the quotations to make x into a string.
 # You can use the raw_input function to solve this issue.
 
 # It should be noted that the print command requires commas to separate objects:
-print ("Name", "sketch")
-# Output: Name sketch
+print ("Name", "sketch") # Output: Name sketch
 
 
 ''' 
@@ -24,11 +23,10 @@ Displaying Information
 _________________________
 
 '''
-# The sys module in Python provides access to the three built-in file objects. They are used by the interpreter to provide input and output functionality. They are referred to as sys.stdin, sys.stdout and sys.stderr.
+# The sys module provides access to the three built-in file objects. They are used by the interpreter to provide input and output functionality. They are referred to as sys.stdin, sys.stdout and sys.stderr.
 # Print statements are mapped to sys.stdout. As a result, they send the textual representation of objects to the standard output stream:
 # import sys 
-sys.stdout.write("Writing data with built-in file object. \n") 
-# Output: Writing data with built-in file object
+sys.stdout.write("Writing data with built-in file object. \n")  # Output: Writing data with built-in file object
 
 
 ''' 
