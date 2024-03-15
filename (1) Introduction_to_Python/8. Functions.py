@@ -5,10 +5,10 @@
 
 '''
 
-# Functions and procedures are code blocks that can be accessed from various places of your code. Python includes numerous built-in functions, but you can also write your own functions. Yours are referred to as user-defined functions. Functions and procedures improve the modularity of the program and allow for greater code reuse.
+# Functions and procedures are code blocks that can be accessed from various places of your code. Python includes numerous built-in functions but you can also write your own functions. Yours are referred to as user-defined functions. Functions and procedures improve the modularity of the program and allow for greater code reuse.
 # Procedures are functions that don't return a value. The only distinction between a function and a procedure is that a procedure contains either a return command without parameters (which returns None) or no return statement at all. 
 # While functions are running, they generate their own namespace. 
-# When you call a function, such as function (a,b,c):
+# When you call a function such as function (a,b,c):
 # 1. Python searches its namespaces for function to determine whether this is a Python object.
 # 2. Python generates a tuple of the arguments supplied. As an example, we have arguments=(a,b,c).
 # 3. Python calls the function internally as follows: apply(function,arguments). 
@@ -101,14 +101,14 @@ Parameters
 _________________________________________________________________________________________________
 '''
 
-# In Python, all parameters (arguments) are provided by reference. Modules, classes, instances, and other functions can be passed to functions as arguments and dynamically examined. 
+# In Python, all parameters are provided by reference. Modules, classes, instances and other functions can be passed to functions as arguments and dynamically examined. 
 def powerdivision(x,y):  #function parameters: "x" and "y"
       return (x/y) 
 
 print (powerdivision(4,2))   # function arguments: "4" and "2"
 # Output: 2.0
 
-# Whenever mutable objects (dictionaries and lists)—that are transported to a function as arguments—change within the function, their external values also change.
+# Whenever mutable objects (dictionaries and lists) that are transported to a function as arguments change within the function.
 a = [10] 
 def changelst(argument): 
        argument.append(4.0) 
@@ -162,7 +162,7 @@ Returning Values
 ___________________
 '''
 
-# The return expression terminates the execution of a function, but when it is followed by an expression, it returns the expression.
+# The return expression terminates the execution of a function but when it is followed by an expression, it returns the expression.
 
 def returnargument(x): 
     return x 
@@ -198,13 +198,13 @@ Dynamic Namespace
 ___________________
 '''
 
-# Python allows use of dynamic namespace concepts. When a function, module, or class is formed, it specifies its own namespace.
+# Python allows use of dynamic namespace concepts. When a function, module or class is formed, it specifies its own namespace.
 # Python's namespaces are as follows:
-# # Built-in names include int, string, def, print, and so on. 
+# # Built-in names include int, string, def, print and so on. 
 # # Global names are declared global and assigned at the module's top level. 
 # # Local names—Names assigned within a function
-# # When creating code, there are two ways to write an object name. You can use both qualified and unqualified names. Qualified names make use of object namespaces as references, such as:
+# # When creating code, there are two ways to write an object name. You can use both qualified and unqualified names. Qualified names make use of object namespaces as references such as:
 # print (objectnamespace.objectname) 
 # # If the object is in your namespace, unqualified names handle scopes.
-# For instance, print (objectname).
+# For example, print (objectname).
 
