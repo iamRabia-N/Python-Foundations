@@ -9,9 +9,9 @@ Modules
 _________________________________________________________________________________________________
 '''
 
-# A module is a collection of classes, functions, and variables stored in a text file. Modules can be written in Python or C. A module's global namespace is created and imported using the syntax shown below:
+# A module is a collection of classes, functions and variables stored in a text file. Modules can be written in Python or C. A module's global namespace is created and imported using the syntax shown below:
 # import <module> 
-# It is also possible to import many modules at the same time with just one import statement, as shown below:
+# It is also possible to import many modules at the same time with just one import statement as shown below:
 # import m1, m2, m3
 # Some Python modules are always available. Others (including yours) are files that must be imported (in most situations, those files end in.py or.pyc). A file must be saved in one of the folders mentioned in the sys.path variable before it is imported.
 
@@ -43,7 +43,7 @@ ________________________________________________________________________________
 # It would be equivalent to including the following line in your package's __init__.py file:
 # import subpackage1, subpackage2, subpackage3
 
-# Keep in mind that Python uses the paths contained in sys.path to locate modules and packages. This variable is a basic list, just like any other, and you can add whatever directory you want to it. To view the current contents of this variable, type sys.path at the prompt of your interpreter.
+# Keep in mind that Python uses the paths contained in sys.path to locate modules and packages. This variable is a basic list, just like any other and you can add whatever directory you want to it. To view the current contents of this variable, type sys.path at the prompt of your interpreter.
 # The ability to rename modules when importing them is a new feature included in release 2.0. This can be done in two ways:
 # import module as newname
 # or
