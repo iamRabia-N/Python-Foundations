@@ -150,5 +150,3 @@ print (Lst.count(4)) # Output:2
 
 print (Lst.index(5)) # returns the element 5's corresponding index. 
 print (Lst.remove(3)) # removes the third element (not the index!!!)
-
-# It should be noted that prior to version 1.5.2, lst.append (1,2) always added a tuple (1,2) to the list lst. When you do that as of release 2.0, you will now encounter a TypeError exception and a notice that says "append requires exactly 1 argument; 2 given." Not to worry! Simply add an additional set of parenthesis, like in lst.append ((1,2)), to correct that.
