@@ -17,7 +17,7 @@ ________________________________________________________________________________
     # Class statements
 
 
-# Alternatively, you can create a new class that inherits properties from other classes, known as subclassing:
+# Alternatively, you can create a new class that inherits properties from other classes known as subclassing:
 # class SubclassName(BaseClass):
     # Class statements
 
@@ -28,7 +28,7 @@ Class Methods
 _________________________________________________________________________________________________
 '''
 # Methods are how you call functions in a class. All methods in a class must start with the `def` keyword. 
-# Every method has `self` as the first argument in the method header, representing the object itself.
+# Every method has `self` as the first argument in the method header representing the object itself.
 
 class MyClass:
     def __init__(self):
@@ -111,7 +111,7 @@ ________________________________________________________________________________
 Instance Attributes
 _________________________________________________________________________________________________
 '''
-# Instance attributes are accessible using `obj.__dict__`, `obj.__class__`, and other methods.
+# Instance attributes are accessible using `obj.__dict__`, `obj.__class__` and other methods.
 # They provide information about the instance and its attributes.
 
 
