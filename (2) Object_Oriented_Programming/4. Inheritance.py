@@ -3,7 +3,7 @@
                                                                     Inheritance in Python
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 '''
-# Inheritance serves as a fundamental concept within object-oriented programming, enabling one class to inherit attributes and methods from another. This process is termed subclassing. 
+# Inheritance serves as a fundamental concept within object-oriented programming. It enables one class to inherit attributes and methods from another. This process is termed subclassing. 
 
 
 '''
