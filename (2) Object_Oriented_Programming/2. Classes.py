@@ -58,7 +58,7 @@ ________________________________________________________________________________
 Accessing Attributes
 _________________________________________________________________________________________________
 '''
-# To reference an attribute within a class, use either `self.attribute` or `classname.attribute`. 
+# To reference an attribute within a class use either `self.attribute` or `classname.attribute`. 
 # The `self.attribute` syntax is used to avoid ambiguities between instance variables and local variables.
 
 class MyClass:
