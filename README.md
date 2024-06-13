@@ -1,4 +1,9 @@
-# Welcome to the Basic Python Learning 
+<div align="center">
+
+# Welcome to the Basic Python Learning
+
+</div>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Beginner%20Friendly-yellow?style=for-the-badge" alt="Beginner Friendly">
