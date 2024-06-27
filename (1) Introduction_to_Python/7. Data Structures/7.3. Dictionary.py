@@ -9,7 +9,7 @@
 # Dictionaries in Python are sometimes known as associative arrays or hash tables. A dictionary's general syntax is as follows:
 # variable = {"key1":"value1", "key2":"value2", …}
 # Dictionaries are always surrounded by braces. They link key items to value elements—keys and values are separated by a colon.
-# A dictionary's values can be any type, but its keys must be of an immutable data type (such as strings, numbers or tuples). Because it uses a hash algorithm to accomplish a fast lookup, dictionary keys have no natural order and are always listed in arbitrary order.
+# A dictionary's values can be any type but its keys must be of an immutable data type (such as strings, numbers or tuples). Because it uses a hash algorithm to accomplish a fast lookup, dictionary keys have no natural order and are always listed in arbitrary order.
 
 # Let us now concentrate on the operations that dictionaries can do. Let's start with a small dictionary.
 py_dictionary = {"var1":"integer", "var2":"string", "var3":"float"}
@@ -37,8 +37,7 @@ Built-In Methods
 _________________________________________________________________________________________________
 '''
 
-# The following sequence of commands shows the built-in methods that are implemented for
-# dictionaries.
+# The following sequence of commands shows the built-in methods that are implemented for dictionaries.
 
 py_dictionary = {"a":10, "b":20, "c":30}
 print (py_dictionary.keys()) # creates a list of keys. Very used in for statements. ["a","b","c"]  # Output: dict_keys(['a', 'b', 'c'])
