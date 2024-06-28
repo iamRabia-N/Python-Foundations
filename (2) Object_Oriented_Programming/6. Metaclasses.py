@@ -24,7 +24,7 @@ print(my_instance.instance_var)  # Accessing an instance variable
 # In above example:
 # -> `MetaClass` is a metaclass that derives from the built-in `type` metaclass.
 # -> When we define `MyClass` and set its metaclass to `MetaClass`, we are effectively using `MetaClass` as a template to create our class.
-# -> The `__init__` method in `MetaClass` is called when `MyClass` is created, allowing us to customize the class's attributes and behavior.
-# -> When you create an instance of `MyClass`, it behaves just like any other class, but you've used a metaclass to influence how it was created. This gives you a way to customize class creation, which can be valuable in certain situations.
+# -> The `__init__` method in `MetaClass` is called when `MyClass` is created which allows us to customize the class's attributes and behavior.
+# -> When you create an instance of `MyClass`, it behaves just like any other class but you've used a metaclass to influence how it was created. This gives you a way to customize class creation which can be valuable in certain situations.
 
-# It's important to note that metaclasses are a powerful and advanced Python feature, and they may not be necessary for most programming tasks. However, they can be incredibly useful when you need to control class creation and behavior at a deeper level.
+# It's important to note that metaclasses are a powerful and advanced Python feature and they may not be necessary for most programming tasks. However, they can be incredibly useful when you need to control class creation and behavior at a deeper level.
