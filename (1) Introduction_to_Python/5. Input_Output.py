@@ -94,8 +94,8 @@ print ("%08d " % int_var)   # Output: 00000003
 # 5. Strings with the widest possible field
 print ("%0.2s" % string_var)  # Output: He
 
-# 	precision (floating-point values) + period (.)
+# 6. Pecision (floating-point values) + period (.)
 print ("%0.2f" % float_var)  # Output: 13.50
 
-# 	Minimum digit count (integer)
+# 7. Minimum digit count (integer)
 print ("%0.10f" % int_var)  # Output: 3.0000000000
