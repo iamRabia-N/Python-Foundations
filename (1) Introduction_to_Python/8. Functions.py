@@ -11,7 +11,7 @@
 # When you call a function such as function (a,b,c):
 # 1. Python searches its namespaces for function to determine whether this is a Python object.
 # 2. Python generates a tuple of the arguments supplied. As an example, we have arguments=(a,b,c).
-# 3. Python calls the function internally as follows: apply(function,arguments). 
+# 3. Python calls the function internally as follows: apply(function, arguments). 
 
 
 '''
@@ -32,7 +32,7 @@ def addnumbers(x,y):
  return x + y 
 
 x = addnumbers(3,4)   
-print (x)# Output: 7
+print (x) # Output: 7
 
 # Example 01
 def name():
@@ -70,14 +70,12 @@ ________________________________________________________________________________
 
 # Examples
 f = lambda x: x * 4 
-print (f(20))
-# Output: 80
+print (f(20)) # Output: 80
 
 # The previous case can also be written as follows:
 def f(x): 
     return x * 4 
-print (f(30))
-# Output: 120
+print (f(30)) # Output: 120
 
 # Here's another example:
 def compose(func1,func2,val): 
@@ -91,8 +89,7 @@ print (compose(chr,abs,-75))
 def listtostring(list): 
   return reduce(lambda string, item: string + chr(item), list, "") 
   
-print (listtostring([1,2,3,4,5]))
-# Output: "\001\002\003\004\005"
+print (listtostring([1,2,3,4,5])) # Output: "\001\002\003\004\005"
 
 
 '''
@@ -175,8 +172,7 @@ def returntuple(a,b):
 x = 4 
 y = 19 
 a, b = returntuple(x,y) 
-print (a, b)
-# Output: 4, 19
+print (a, b) # Output: 4, 19
 
 # It is also possible for a function to have no return at all. When that happens, the value None is returned.
 
