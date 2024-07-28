@@ -35,13 +35,13 @@ _________________________
 
 '''
 # Python's formatting operations are identical to the C language's printf() function. Consider the following example:
-print ("Eng. Zoi is here!")
+print ("Eng. James is here!")
 # What if you don't want the name to be hard-coded inside the string? Compare the preceding line of code to the following:
 # print (" Eng. %s, is here!" % someone)
-print (" Eng. %s, is here!" % "Zoi")
+print (" Eng. %s, is here!" % "James")
 # The sequence of the elements has no impact on the final output. Consequently, stating:
 # print (" Eng. %s" % someone)
-print (" Eng. %s" % "Zoi")
+print (" Eng. %s" % "James")
 # is the same as:
 # print (someone % "Eng. %s")
 
