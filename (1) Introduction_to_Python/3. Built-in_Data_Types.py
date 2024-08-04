@@ -43,7 +43,7 @@ Strings
 ___________
 '''
 
-# Python defines a string as a sequence of characters. As a result, whenever you use the string for example "Apple," Python internally treats it as the sequence ["A", "P", "P", "L", "E"]. The initial indexer value is always zero. As a result, in order to access the letter "A," you have to type "print (Apple[0])" and so on. We can access all of the other elements using the same concept.
+# Python defines a string as a sequence of characters. As a result, whenever you use the string for example "Apple", Python internally treats it as the sequence ["A", "P", "P", "L", "E"]. The initial indexer value is always zero. As a result, in order to access the letter "A," you have to type "print (Apple[0])" and so on. We can access all of the other elements using the same concept.
 # The following are examples of few string operators: 
 print (len("computer"))    # Get its length (Output: 8)
 print ("Hello" + "World")  # concatenation (Output: HelloWorld)
@@ -58,5 +58,3 @@ print (OS[1:])   # (Output: acBook)
 print (OS[:3] ) # (Output: Mac)
 
 # There are many other functions of string which you can explore. 
-
-
