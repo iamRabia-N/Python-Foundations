@@ -39,7 +39,7 @@ _____________________________
 
 '''
 
-# The if-else statement checks the condition and runs the body of if when the test condition is True, but the body of else is executed if the condition is False.
+# The if-else statement checks the condition and runs the body of if when the test condition is True but the body of else is executed if the condition is False.
 
 ' Syntax '
 # if <condition>:
@@ -153,7 +153,7 @@ while x > 0:
        print (x)
        x = x-1 
 # Output: 6 5 4 3 2 1
-# The pass statement does nothing in the following example, and the condition will always be true. As a result, an infinite loop is implemented. 
+# The pass statement does nothing in the following example and the condition will always be true. As a result, an infinite loop is implemented. 
 while 1: 
    pass 
 
