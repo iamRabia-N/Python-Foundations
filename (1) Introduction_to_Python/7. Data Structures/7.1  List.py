@@ -22,7 +22,7 @@ Lst1 = [1, "Numbers!", 2]
 # Lists can also contain other lists.
 Lst1 = [1, "Numbers!", [2, 4, 6,"Even!!"]]
 
-# Strings and lists both use the same operators. Forexample, you need to use slice operator to extract a range of elements from a list.
+# Strings and lists both use the same operators. For example, you can use slice operator to extract a range of elements from a list.
 Lst1 = [1, "Numbers!", [2, 4, 6,"Even!!"]]
 print (Lst1[1])  # Output: "Numbers!"
 
@@ -110,7 +110,7 @@ Built-In Methods
 _____________________________________________________
 '''
 
-# To see all of a list's built-in methods, open the interpreter and type dir([]). Some of the methods examples are as follows:
+# To see all of a list's built-in methods, open the interpreter and type `dir()`. Some of the methods examples are as follows:
 Lst = [0, 1, 2]  
 print (Lst)   # Output: [0, 1, 2]
 
