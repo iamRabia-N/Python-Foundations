@@ -43,7 +43,7 @@ ________________________________________________________________________________
 # It would be equivalent to including the following line in your package's __init__.py file:
 # import subpackage1, subpackage2, subpackage3
 
-# Keep in mind that Python uses the paths contained in sys.path to locate modules and packages. This variable is a basic list, just like any other and you can add whatever directory you want to it. To view the current contents of this variable, type sys.path at the prompt of your interpreter.
+# Keep in mind that Python uses the paths contained in sys.path to locate modules and packages. This variable is a basic list just like any other and you can add whatever directory you want to it. To view the current contents of this variable, type sys.path at the prompt of the interpreter.
 # The ability to rename modules when importing them is a new feature included in release 2.0. This can be done in two ways:
 # import module as newname
 # or
